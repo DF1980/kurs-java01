@@ -17,11 +17,12 @@ public class TestingMain {
         }
 
         Calculator calculator = new Calculator();
-
-        int resultAdd = calculator.add(5, 3);
-        System.out.println("Test add(5, 3): " + (resultAdd == 8 ? "Test ok" : "Failed"));
-
-        int resultSubtract = calculator.subtract(10, 4);
-        System.out.println("Test subtract(10, 4): " + (resultSubtract == 6 ? "Test ok" : "Failed"));
+        int addResult = calculator.add(180, 19);
+        int subResult = calculator.subtract(200, 150);
+        if (addResult == 199 && subResult == 50) {
+            System.out.println("Calculator test OK");
+        } else {
+            System.out.println("Calculator has error!");
+        }
     }
 }
