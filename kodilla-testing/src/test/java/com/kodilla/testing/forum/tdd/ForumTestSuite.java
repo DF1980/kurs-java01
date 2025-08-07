@@ -1,5 +1,4 @@
-package com.kodilla.testing.forum.tdd
-import com.kodilla.testing.forum.ForumUser;
+package com.kodilla.testing.forum.tdd;
 import org.junit.jupiter.api.*;
 @DisplayName("TDD: Forum Test Suite \uD83D\uDE31")
 

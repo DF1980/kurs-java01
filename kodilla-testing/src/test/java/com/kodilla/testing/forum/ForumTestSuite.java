@@ -47,8 +47,6 @@ class ForumTestSuite {
         SimpleUser simpleUser = new SimpleUser("theForumUser", "John Smith");
 
         String expectedResult = "theForumUser";
-        String result1 = simpleUser.getUsername();
-        System.out.println("Testing " + result1);
 
         //When
         String result = simpleUser.getUsername();
